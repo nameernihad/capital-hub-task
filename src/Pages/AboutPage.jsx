@@ -1,6 +1,9 @@
+import { About } from "../Component/About/About"
 
 export const AboutPage = () => {
   return (
-    <div>AboutPage</div>
+    <>
+    <About/>
+    </>
   )
 }

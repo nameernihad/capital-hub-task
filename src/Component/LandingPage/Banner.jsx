@@ -1,7 +1,7 @@
 
 export const Banner = () => {
   return (
-    <div className="flex  h-full w-screen md:p-40 p-10  gap-10 bg-[#eef8d7]">
+    <div className="flex  h-full  md:p-40 p-10  gap-10 bg-[#eef8d7]">
       <div className="flex flex-col  gap-10 md:w-1/2 w-full">
         <img className="w-full" src="/imageText.png" alt="" />
 

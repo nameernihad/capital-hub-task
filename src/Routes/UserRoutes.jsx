@@ -3,6 +3,7 @@ import { LandingPage } from "../Pages/LandingPage";
 import { ContactPage } from "../Pages/ContactPage";
 import { AboutPage } from "../Pages/AboutPage";
 import Navbar from "../Component/Navbar";
+import { Footer } from "../Component/Footer";
 
 function UserRoutes() {
   return (
@@ -13,6 +14,7 @@ function UserRoutes() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
+      <Footer/>
     </div>
   );
 }

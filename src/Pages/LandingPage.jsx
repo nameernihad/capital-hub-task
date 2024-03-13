@@ -1,4 +1,5 @@
 import { Banner } from "../Component/LandingPage/Banner";
+import { Campaign } from "../Component/LandingPage/Campaign";
 import { Motive } from "../Component/LandingPage/Motive";
 import { Needs } from "../Component/LandingPage/Needs";
 import { Progress } from "../Component/LandingPage/Progress";
@@ -12,6 +13,7 @@ export const LandingPage = () => {
     <Motive/>
     <Needs/>
     <Progress/>
+    <Campaign/>
     </>
   );
 };
